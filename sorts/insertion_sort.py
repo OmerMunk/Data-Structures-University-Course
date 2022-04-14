@@ -10,5 +10,6 @@ def insertion_sort(arr):
 
 
 if __name__ == "__main__":
-    l1 = [1,9,7,8,3,2]
+    l1 = [1,9,2,8,3,7,4,6,5]
+    print(len(l1))
     print(insertion_sort(l1))
