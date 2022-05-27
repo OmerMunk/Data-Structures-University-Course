@@ -10,7 +10,7 @@ def swap(arr1, index1, index2):
 def selection_sort(arr1):
     for i in range(0, len(arr1) - 1):
         minIndex = i
-        for j in range(i, len(arr1)):
+        for j in range(i+1, len(arr1)):
             if arr1[j] < arr1[minIndex]:
                 minIndex = j
         swap(arr1, i, minIndex)
